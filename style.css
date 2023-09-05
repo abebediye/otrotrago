@@ -1,8 +1,69 @@
+@font-face {
+    font-family: "Spicy Taquito";
+    src: url("https://www.dafont.com/spicy-taquito.font")
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
 body {
     background-color: black;
-    color: white
+    color: white;
 }
 
 menu {
-    background-color: blue;
+    /* background-color: blue; */
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section {
+    /* background-color: blueviolet; */
+    padding: 20px;
+}
+
+section  h1{
+    /* color: red; */
+    padding: 15px 5px;
+    font-size: 2rem;
+    font-family: 'Pacifico';
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+section h3{
+    font-size: 1.1rem;
+    color: azure;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    list-style-type: none; 
+    margin-top: 48px;
+}
+
+li h4 {
+    color: red;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.img_tquenos {
+    margin-top: 50px;
+    background-color: green;
+    width: 90vw;
+    height: 200px;
+    object-fit: cover;
+    object-position: 0 -250px;
 }
