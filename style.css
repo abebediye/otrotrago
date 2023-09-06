@@ -1,7 +1,3 @@
-@font-face {
-    font-family: "Spicy Taquito";
-    src: url("https://www.dafont.com/spicy-taquito.font")
-}
 
 * {
     padding: 0;
@@ -16,8 +12,34 @@ body {
 }
 
 menu {
-    /* background-color: blue; */
+    /* background-color: lightblue; */
     padding: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    background-image: url("https://www.infobae.com/new-resizer/Gamilc6Cyqvj0_K_xHC4mFMGHW4=/992x606/filters:format(webp):quality(85)/s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/03/20185009/Tragos-Cerveza-Tirada.jpg");
+
+}
+
+.stroked {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+menu h1 {
+    font-family: 'Courgette';
+    font-size: 4rem;   
+}
+
+menu h3 {
+    /* color: green; */
+    font-size: 2rem;
 }
 
 main {
@@ -51,6 +73,10 @@ ul {
     gap: 40px;
     list-style-type: none; 
     margin-top: 48px;
+}
+
+li {
+    background-color: orange;
 }
 
 li h4 {
