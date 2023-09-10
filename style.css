@@ -25,6 +25,7 @@ menu {
 
 menu h1 {
     font-size: 4rem;   
+
 }
 
 menu h3 {
@@ -50,10 +51,11 @@ section h1{
     font-family: 'Pacifico';
     border-bottom: 1px solid white;
     margin-bottom: 20px;
+    color: orange;
 }
 
 section > h2{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
     margin-bottom: 15px;
     margin-top: 30px;
@@ -87,11 +89,12 @@ h2 + ul > li > .content{
     display: flex;
     flex-direction: column;
     width: 80%;
-    padding: 3px;
+    padding: 10px 0;
 }
 
-.content-description{
+.content-desciption {
     margin-bottom: 20px;
+    font-size: 0.9rem;
 }
 
 .content-price{
